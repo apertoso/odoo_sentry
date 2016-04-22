@@ -30,6 +30,9 @@
 Provides a pluggable base to connect Odoo with Sentry.
 """,
     'depends': ['base'],
+    'external_dependencies': {
+        'python': ['raven',],
+    }, 
     'auto_install': False,
     'application': True,
 }
